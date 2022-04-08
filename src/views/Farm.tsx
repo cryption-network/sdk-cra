@@ -5,8 +5,11 @@ import "./Farm.css";
 const Farm = () => {
   return (
     <>
-      <CreateFarmButton title="Karan U Kanthawar" />
-      <CreateFarm />
+      <CreateFarmButton
+        title="Create new Farm"
+        customGradient="linear-gradient(to right, red, yellow)"
+      />
+      <CreateFarm customGradient="linear-gradient(to right, red, yellow)" />
     </>
   );
 };

@@ -8,7 +8,7 @@ const LiquidityLocker = () => {
   return (
     <>
       <CreateLiquidityLockerButton />
-      <CreateLiquidityLocker />
+      <CreateLiquidityLocker customGradient="linear-gradient(to right, yellow, red)" />
     </>
   );
 };

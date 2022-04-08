@@ -5,7 +5,7 @@ const Vesting = () => {
   return (
     <>
       <CreateVestingButton />
-      <CreateVesting />
+      <CreateVesting customGradient="linear-gradient(to right, red, yellow)" />
     </>
   );
 };

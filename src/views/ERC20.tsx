@@ -5,7 +5,7 @@ const ERC20 = () => {
   return (
     <>
       <CreateERC20Button />
-      <CreateERC20 />
+      <CreateERC20 customGradient="linear-gradient(to right, red, yellow)" />
     </>
   );
 };
