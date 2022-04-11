@@ -1,7 +1,7 @@
-import { Web3Provider } from "@ethersproject/providers";
+import Web3 from "web3";
 
-export default function getLibraryEther(provider: any): Web3Provider {
-  const libraryEther = new Web3Provider(provider);
-  libraryEther.pollingInterval = 15000;
-  return libraryEther;
-}
+const getLibraryEther = (provider: any): Web3 => {
+  return provider;
+};
+
+export default getLibraryEther;
