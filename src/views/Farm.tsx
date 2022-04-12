@@ -7,9 +7,9 @@ const Farm = () => {
     <>
       <CreateFarmButton
         title="Create new Farm"
-        customGradient="linear-gradient(to right, red, yellow)"
+        customGradient="linear-gradient(to right, #fff 25%, #0275d8 75%)"
       />
-      <CreateFarm customGradient="linear-gradient(to right, red, yellow)" />
+      <CreateFarm customGradient="linear-gradient(to right, #fff 25%, #0275d8 75%)" />
     </>
   );
 };

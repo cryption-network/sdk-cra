@@ -1,12 +1,19 @@
-.df-sdk-next-button {
-  background-color: red !important;
-  background: red !important;
-  border: 5px solid black !important;
-}
-.df-sdk-next-button:hover {
-  background: black !important;
-}
 .df-sdk-single-btn {
-  background: black !important;
-  border: 2px solid red !important;
+  background: #0275d8 !important;
+  color: #fff !important;
+}
+.df-sdk-single-btn:hover {
+  background: #fff !important;
+  color: #0275d8 !important;
+  border: 2px solid #0275d8 !important;
+}
+
+.df-sdk-next-btn {
+  background: #0275d8 !important;
+  color: #fff !important;
+}
+.df-sdk-next-btn:hover {
+  background: #fff !important;
+  color: #0275d8 !important;
+  border: 2px solid #0275d8 !important;
 }
