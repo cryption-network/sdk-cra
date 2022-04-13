@@ -20,7 +20,7 @@ function DappFactory({ children }: { children?: React.ReactNode }) {
 
   return (
     <DappFactoryProvider
-      library={library}
+      provider={library}
       chainId={chainId}
       account={accountString}
       useDarkMode={isDark}
