@@ -1109,10 +1109,10 @@
   dependencies:
     axios "0.21.3"
 
-"@cryption/dapp-factory-sdk@^0.1.26":
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/@cryption/dapp-factory-sdk/-/dapp-factory-sdk-0.1.26.tgz#c39d65b49251309c64f2a80c4f6bb9727689be04"
-  integrity sha512-6ILoR21UyLJSrkYocBMY23f3RCOT/buUUkNJqF1Gdw5s6kejH86R+RNhzad2pQnkRkymQGF+GAs4kzVChnfZ2A==
+"@cryption/dapp-factory-sdk@^0.1.27":
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/@cryption/dapp-factory-sdk/-/dapp-factory-sdk-0.1.27.tgz#34349957d38bf298dbb1277166cdf74979b91c7c"
+  integrity sha512-FoRTOVnQ8cYEaoN4YZEKCjQmmG+l0yK37yB2/U5NQWY7RTu9yWth/st5fLG/v3LWLhKcMaJQy8PYkHivpkOcVA==
   dependencies:
     "@crowdin/crowdin-api-client" "^1.12.0"
     "@emotion/react" "^11.9.0"
