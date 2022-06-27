@@ -1,11 +1,10 @@
 import { useCallback } from "react";
 import { useWeb3React } from "@web3-react/core";
 import { ConnectorNames } from "cryption-uikit-v2";
-import { connectorsByName } from "../utils/web3React";
+import { connectorsByName } from "./web3React";
 
 const useAuth = () => {
   const { activate, deactivate } = useWeb3React();
-  // const { toastError } = useToast();
 
   const login = useCallback((connectorID: ConnectorNames) => {
     const connector = connectorsByName[connectorID];
