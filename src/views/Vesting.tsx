@@ -14,7 +14,7 @@ const Vesting = () => {
   return (
     <>
       <CreateVestingButton />
-      <CreateVesting customGradient="linear-gradient(to right, red, yellow)" />
+      <CreateVesting customgradient="linear-gradient(to right, red, yellow)" />
       <DisplayVestings account={account || ""} getServiceId={getServiceId} />
       {singleVestingId !== "" && (<VestingPage id={singleVestingId} account={account || ""} />) }
     </>

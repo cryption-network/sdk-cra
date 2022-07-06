@@ -5,7 +5,7 @@ import { useActiveWeb3React } from "../hooks";
 const IVCO = () => {
   const [singleIVCOId, setSingleIVCOId] = useState("");
 
-  const {account, chainId} = useActiveWeb3React();
+  const {account} = useActiveWeb3React();
 
   const getServiceId = (id: string) => {
     setSingleIVCOId(() => id);
@@ -16,7 +16,7 @@ const IVCO = () => {
       <CreateIVCOButton />
       <CreateIVCO />
       <DisplayIVCOs account={account || ""} getServiceId={getServiceId} />
-      {singleIVCOId !== "" && (<IVCOPage chainId={chainId || 80001} account={account || ""} id={singleIVCOId} />) }
+      {singleIVCOId !== "" && (<IVCOPage  account={account || ""} id={singleIVCOId} />) }
     </>
   );
 };

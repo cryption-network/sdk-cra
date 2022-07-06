@@ -16,9 +16,9 @@ const Farm = () => {
     <>
       <CreateFarmButton
         title="Create new Farm"
-        customGradient="linear-gradient(to right, #f2f 25%, #0275d8 75%)"
+        customgradient="linear-gradient(to right, #f2f 25%, #0275d8 75%)"
       />
-      <CreateFarm customGradient="linear-gradient(to right, #f2f 25%, #0275d8 75%)" />
+      <CreateFarm customgradient="linear-gradient(to right, #f2f 25%, #0275d8 75%)" />
       <DisplayFarms chainId={chainId|| 80001} account={account || ""} getServiceId={getServiceId}  />
       {singleFarmId !== "" && (<FarmPage chainId={chainId} id={singleFarmId} />) }
     </>

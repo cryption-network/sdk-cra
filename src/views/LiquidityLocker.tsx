@@ -17,7 +17,7 @@ const LiquidityLocker = () => {
   return (
     <>
       <CreateLiquidityLockerButton />
-      <CreateLiquidityLocker customGradient="linear-gradient(to right, yellow, red)" />
+      <CreateLiquidityLocker customgradient="linear-gradient(to right, yellow, red)" />
       <DisplayLiquidityLockers chainId={chainId} account={account || ""} getServiceId={getServiceId}  />
       {singleLockerId !== "" && (<LiquidityLockerPage chainId={chainId || 80001} id={singleLockerId} />) }
     </>
