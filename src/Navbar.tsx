@@ -39,6 +39,7 @@ const Navbar = () => {
       <StyledLink to="/createIvco">IVCO</StyledLink>
       <StyledLink to="/createErc20">ERC20</StyledLink>
       <StyledLink to="/createLiquidityLocker">Liquidity Lockers</StyledLink>
+      <StyledLink to="/createPredictionMarkets">Prediction Markets</StyledLink>
       {/*<StyledLink to="/createNft">NFT</StyledLink>*/}
       <Button onClick={() => toggleTheme()}>Toggle Theme</Button>
     </Topnav>

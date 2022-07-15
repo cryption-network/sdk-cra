@@ -1856,10 +1856,10 @@
   dependencies:
     axios "0.21.3"
 
-"@cryption/dapp-factory-sdk@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@cryption/dapp-factory-sdk/-/dapp-factory-sdk-0.4.0.tgz#e63ebd00a68c982faf62fa00025b7173df1b1e57"
-  integrity sha512-61FvaKxP40feQeHTGog09AluTA425zLUFe/urf2MMnfYxgou8hxuxvsMJvgdYf1cWVyNBYL5eCKoVMJo0stdvQ==
+"@cryption/dapp-factory-sdk@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@cryption/dapp-factory-sdk/-/dapp-factory-sdk-0.4.1.tgz#35f4e86d3a1c9d6d69aeaf442d1f92b5bba89f52"
+  integrity sha512-ojyijqDWpmGROEc5TjRCMP9E3ggvi+d50Oa/15Sc3+9GXX7eP/H6VtC+HxyvuKixoaiLtLUfmh513HXTAZLx0g==
   dependencies:
     "@apollo/client" "^3.6.8"
     "@crowdin/crowdin-api-client" "^1.12.0"
