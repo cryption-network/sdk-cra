@@ -3,7 +3,7 @@ import { InjectedConnector } from "@web3-react/injected-connector";
 import { WalletConnectConnector } from "@web3-react/walletconnect-connector";
 import { TorusConnector } from "@web3-react/torus-connector";
 
-const SUPPORTED_NETWORK_IDS = [137, 80001, 1, 5];
+const SUPPORTED_NETWORK_IDS = [137, 80001, 1, 5, 56];
 
 const nodes = {
   "137": [
