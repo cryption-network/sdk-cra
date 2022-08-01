@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import "./App.css";
 import { ApolloProvider } from "@apollo/client";
 import { useApollo } from "./apollo";
+import { useWeb3React } from "@web3-react/core";
 
 const CreatePool = lazy(() => import("./views/Pool"));
 const CreateERC20 = lazy(() => import("./views/ERC20"));
@@ -19,6 +20,10 @@ const App = () => {
   // @ts-ignore
   const client = useApollo();
   useEagerConnect();
+
+  const {library, account} = useWeb3React();
+  console.log('lib: ', library);
+  console.log('signer: ', library?.getSigner(account));
 
   return (
     <ApolloProvider client={client}>
