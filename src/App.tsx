@@ -14,6 +14,7 @@ const CreateLiquidityLocker = lazy(() => import("./views/LiquidityLocker"));
 const CreateVesting = lazy(() => import("./views/Vesting"));
 const CreateNFT = lazy(() => import("./views/NFT"));
 const CreatePredictionMarket = lazy(() => import("./views/PredictionMarkets"));
+const ViewPM = lazy(() => import("./views/ViewPM"));
 
 const App = () => {
   // @ts-ignore
@@ -36,6 +37,7 @@ const App = () => {
             <Route path="/createErc20" element={<CreateERC20 />} />
             <Route path="/createNFT" element={<CreateNFT />} />
             <Route path="/createPredictionMarkets" element={<CreatePredictionMarket />} />
+            <Route path="/pm/:market/:token/:oracle" element={<ViewPM />} />
             <Route path="/" element={<Farm />} />
             <Route path="/createFarm" element={<Navigate to="/createFarm" />} />
           </Routes>
