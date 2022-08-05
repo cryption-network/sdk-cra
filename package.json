@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.6.9",
-    "@cryption/dapp-factory-sdk": "^0.4.14",
+    "@cryption/dapp-factory-sdk": "^0.4.16",
     "@pancakeswap/uikit": "^0.64.0",
     "@reduxjs/toolkit": "^1.6.1",
     "@web3-react/core": "^6.1.9",
