@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.6.9",
-    "@cryption/dapp-factory-sdk": "^0.4.29",
+    "@cryption/dapp-factory-sdk": "^0.4.30",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@pancakeswap/uikit": "^0.64.0",

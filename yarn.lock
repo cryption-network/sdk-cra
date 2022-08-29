@@ -1830,10 +1830,10 @@
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@cryption/dapp-factory-sdk@^0.4.29":
-  version "0.4.29"
-  resolved "https://registry.yarnpkg.com/@cryption/dapp-factory-sdk/-/dapp-factory-sdk-0.4.29.tgz#dbd84f81c49e675e5a50b03c7c037b718cb78cc2"
-  integrity sha512-q0/CKNKx079dztg7Zyd+M8SI7m3xhZ/ae9nzyrfGTcL4/v0aXx3FoFAr72kXnaIvbfXsXjlOqPrzngCPHcpWzQ==
+"@cryption/dapp-factory-sdk@^0.4.30":
+  version "0.4.30"
+  resolved "https://registry.yarnpkg.com/@cryption/dapp-factory-sdk/-/dapp-factory-sdk-0.4.30.tgz#e3ee41cb68e19786291d0bf6a3b9ddd0549f0701"
+  integrity sha512-wfZ+E0EOdUhXg/Ag7/T2VJBUXuM4PWLXR50t+4PfOS2YKDVTiZsZ4M1pxqcwcPPgx7JrxBVRq1K7IdzuziAmNg==
   dependencies:
     "@apollo/client" "^3.6.8"
     "@ethersproject/contracts" "^5.4.1"
