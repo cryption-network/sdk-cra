@@ -11,8 +11,17 @@ export default function ViewPM() {
   const { market, token: tokenAddress, oracle } = useParams<{ market: string, token: string, oracle: string }>();
   const {  library } = useActiveWeb3React();
 
-  const getTokenDetails = async () => {
+  const getTokenDetails = async (tokenAddress:string) => {
     if (library && market) {
+      if(tokenAddress === "0x0000000000000000000000000000000000000000"){
+        setTokenDetails({
+         address: tokenAddress?.toString(),
+        symbol: "MATIC",
+        decimals: 18
+        })
+
+        return 0;
+      }
       // @ts-ignore
       const web3 = new Web3(library);
       // @ts-ignore
@@ -22,13 +31,17 @@ export default function ViewPM() {
       setTokenDetails({
         address: tokenAddress?.toString(),
         symbol: symbol.toString(),
-        decimals: decimals.toString()
+        decimals: Number(decimals)
       });
+
+      return 0;
     }
   };
 
   useEffect(() => {
-    getTokenDetails().catch(e => console.log("error while fetching token details: ", e));
+    if(tokenAddress){
+      getTokenDetails(tokenAddress).catch(e => console.log("error while fetching token details: ", e));
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
